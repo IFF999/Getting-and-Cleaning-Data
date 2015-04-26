@@ -119,6 +119,12 @@ for (i in 1:6) {
 	activity_label[subgrp,2] <- str_sub(activity[i],3)
 }
 
+## Clean column names
+for (i in 3:ncol(average_df)) {
+	stemp <<- strsplit(colnames(average_df)[i], " ",fixed=TRUE)
+	colnames(average_df)[i] <-  stemp[[1]][2]
+}
+
 ## 7. CHECK FINAL DATA FRAME DIMENSION 
 dim(average_df)
 ##dim = (180 x 81)
