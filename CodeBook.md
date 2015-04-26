@@ -105,35 +105,36 @@ Descriptions for script run_analysis.R resulting in tiny_data.txt
 2) Study Design
    
    Data Files:
-   	- ‘features_info.txt’: Type = informational
-	Shows information about the variables used on the feature vector.
+   - ‘features_info.txt’: Type = informational
+   Shows information about the variables used on the feature vector.
 
-	- 'features.txt': Type = data, Dimension = 561
-	List of all features (variables)
+   - 'features.txt': Type = data, Dimension = 561
+   List of all features (variables)
 
-	- 'activity_labels.txt': Type = data, Dimension = 6
-	Links the activity class labels with their activity name.
+   - 'activity_labels.txt': Type = data, Dimension = 6
+   Links the activity class labels with their activity name.
 
-	- 'X_train.txt': Type = data, Dimension = 7352 x 561
-	 Training set.
+   - 'X_train.txt': Type = data, Dimension = 7352 x 561
+   Training set.
 
-	- 'y_train.txt': Type = data, Dimension = 7352 x 1
-	Training labels (activity class labels).
-	- ‘subject_train.txt’: Type = data, Dimension = 7352 x 1
-	Subject labels 
+   - 'y_train.txt': Type = data, Dimension = 7352 x 1
+   Training labels (activity class labels).
 
-	- 'X_test.txt': Type = data, Dimension = 2947 x 561
-	Test set.
+   - ‘subject_train.txt’: Type = data, Dimension = 7352 x 1
+   Subject labels 
 
-	- 'y_test.txt': 
-	Test labels (activitiy class labels). 2947 x 1
+   - 'X_test.txt': Type = data, Dimension = 2947 x 561
+   Test set.
 
-	- ‘subject_test.txt’: 2947 x 1
-	Subject labels 
+   - 'y_test.txt': 
+   Test labels (activitiy class labels). 2947 x 1
+
+   - ‘subject_test.txt’: 2947 x 1
+   Subject labels 
 
 	The initial project requirement states that the training and test data set should be merged. An evaluation of the train data set showed that X_train.txt contained the observations. y_train and subject_train contained the same number of rows as X_train and therefore fitted the observation data as 2 additional variables (columns) providing the activity and subject data respectively. The same pattern held true for the test data. Once these sets of data where merged, the resulting data dimensions where 10,299 x 561.
 
-Extracting variables (columns) that were mean() or standard() deviations produced a data set with dimension of 10,299 x 81. Grouping this data set by subject and activity and then applying the mean function to each group produced the final data set of 180 x 81.
+	Extracting variables (columns) that were mean() or standard() deviations produced a data set with dimension of 10,299 x 81. Grouping this data set by subject and activity and then applying the mean function to each group produced the final data set of 180 x 81.
 
 3) Tidy Data Set
 
