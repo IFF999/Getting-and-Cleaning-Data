@@ -107,6 +107,7 @@ Descriptions for script run_analysis.R resulting in tiny_data.txt
    
    Data Files:
    
+   
 	- ‘features_info.txt’: Type = informational
 	Shows information about the variables used on the feature vector.
 
@@ -131,6 +132,8 @@ Descriptions for script run_analysis.R resulting in tiny_data.txt
 	Test labels (activitiy class labels). 2947 x 1
 
 	- ‘subject_test.txt’: 2947 x 1
+	 
+	
 	Subject labels 
 
 	The initial project requirement states that the training and test data set should be merged. An evaluation of the train data set showed that X_train.txt contained the observations. y_train and subject_train contained the same number of rows as X_train and therefore fitted the observation data as 2 additional variables (columns) providing the activity and subject data respectively. The same pattern held true for the test data. Once these sets of data where merged, the resulting data dimensions where 10,299 x 561.
