@@ -3,7 +3,7 @@ Human Activity Recognition Using Smartphones Data Set
 
 Descriptions for script run_analysis.R resulting in tiny_data.txt
    
-1. Background and Description of Source Data:
+1) Background and Description of Source Data:
    
    The researchers responsible for compiling and preparing the source data describe it as:
    
@@ -103,7 +103,7 @@ Descriptions for script run_analysis.R resulting in tiny_data.txt
    tBodyGyroJerkMean
    
    
-2. Study Design
+2) Study Design
    
    Data Files:
 	- ‘features_info.txt’: Type = informational
@@ -136,7 +136,7 @@ Descriptions for script run_analysis.R resulting in tiny_data.txt
 
 Extracting variables (columns) that were mean() or standard() deviations produced a data set with dimension of 10,299 x 81. Grouping this data set by subject and activity and then applying the mean function to each group produced the final data set of 180 x 81.
 
-3. Tidy Data Set
+3) Tidy Data Set
 
 Dimensions: 180 x 81
 
