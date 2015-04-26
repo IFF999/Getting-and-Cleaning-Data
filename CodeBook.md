@@ -136,7 +136,6 @@ Descriptions for script run_analysis.R resulting in tiny_data.txt
 
 Extracting variables (columns) that were mean() or standard() deviations produced a data set with dimension of 10,299 x 81. Grouping this data set by subject and activity and then applying the mean function to each group produced the final data set of 180 x 81.
 
-
 3. Tidy Data Set
 
 Dimensions: 180 x 81
@@ -144,7 +143,9 @@ Dimensions: 180 x 81
    Categorical Data Types:
 
    Subject - The identification number of the subject performing the activity
+   
    Activity – The activity number
+   
    Activity.Name – The activity name
 
 Where Subject and Activity provide the grouping to apply the average (mean function) to each group resulting in the following variables. Each is a mean value of the original set of observations.:
