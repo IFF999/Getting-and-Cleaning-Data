@@ -105,7 +105,7 @@ Descriptions for script run_analysis.R resulting in tiny_data.txt
    
 2. Study Design
    
-Data Files:
+   Data Files:
 	- ‘features_info.txt’: Type = informational
 	Shows information about the variables used on the feature vector.
 
